@@ -28,9 +28,6 @@ class StoreModel(db.Model):
         db.session.commit()
 
 
-pw
-
-
 def update(self):
     db.session.delete(self)
     db.session.commit()
